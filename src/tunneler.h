@@ -44,6 +44,7 @@ void Init_Timer( void );
 double Timer( void );
 void HandleActions( double dt );
 void Draw( void );
+static inline void CTest_Sub( int y, int x, int i );
 
 
 #endif /* End of file tunneler.h */
